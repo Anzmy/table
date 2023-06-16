@@ -14,7 +14,7 @@ table {
     border-collapse: collapse;
 }
 
-.table-header {
+table tr:first-child {
     background-color: #009879;
     color: white;
 }
@@ -31,21 +31,21 @@ tr:last-child td {
     border-bottom: none;
 }
 
-.title-line {
+tr td:first-child {
     font-weight: bold;
     text-align: center;
     padding: 0 2rem;
 }
 
-.table-odd {
+tr:nth-child(odd) {
     background-color: white;
 }
 
-.table-even {
+tr:nth-child(even) {
     background-color: #f3f3f3;
 }
 
-.green-line {
+tr:nth-child(3) {
     font-weight: bold;
     color: #009879;
 }
