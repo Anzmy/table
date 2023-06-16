@@ -14,7 +14,7 @@ table {
     border-collapse: collapse;
 }
 
-table tr:first-child {
+thead tr {
     background-color: #009879;
     color: white;
 }
@@ -27,25 +27,25 @@ td {
     border-bottom: 2px solid #dbdbdb;
 }
 
-tr:last-child td {
+tbody tr:last-child td {
     border-bottom: none;
 }
 
-tr td:first-child {
+tbody tr td:first-child {
     font-weight: bold;
     text-align: center;
     padding: 0 2rem;
 }
 
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background-color: white;
 }
 
-tr:nth-child(even) {
+tbody tr:nth-child(even) {
     background-color: #f3f3f3;
 }
 
-tr:nth-child(3) {
+tbody tr:nth-child(3) {
     font-weight: bold;
     color: #009879;
 }
